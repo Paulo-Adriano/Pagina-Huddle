@@ -1,3 +1,52 @@
+
 body {
-    background-color: brown;
+    display: grid;
+    
+    grid: "header header header"
+            "main main main"
+            "rodape rodape rodape";
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 150px 550px 100px;
+
+}
+
+.header {
+    background-color: blue;
+
+    display: grid;
+    grid-area: header;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-left: 67.4px;
+
+}
+
+.header .logo img {
+    width: 220px;
+}
+
+
+.main {
+    background-color: red;
+    
+    display: grid;
+    grid-area: main;
+}
+
+.main .container {
+    display: flex;
+}
+
+.rodape {
+    background-color: aqua;
+    display: grid;
+
+    grid-area: rodape;
+
+    
 }
