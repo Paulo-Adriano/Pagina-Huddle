@@ -1,5 +1,45 @@
 
 
 body {
-    background-color: darkgray;
+    height: 100vh ;
+
+    background: #674BB0 url('../images/bg-desktop.svg') no-repeat top center;
+
+    background-attachment: cover;
+}
+
+.logo {
+    height: 200px;
+    
+    display: flex;
+    
+    
+}
+
+.logo img {
+    
+    width: 264px;
+    margin-left: 50px;
+
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo .img {
+    width: 700px;
+}
+
+.conteudo .img img {
+    width: 100%;
+}
+
+.conteudo .informacoes {
+    width: 300px;
+}
+
+.conteudo .informacoes h1 {
+    color: white;
 }
