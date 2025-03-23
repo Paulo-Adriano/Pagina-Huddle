@@ -67,6 +67,12 @@ body {
     border-radius: 30px;
 }
 
-.rodape{
-    
+.container .rodape{
+    height: 70px;
+
+    background-color: red;
+}
+
+i {
+    width: 50px;
 }
