@@ -70,7 +70,16 @@ body {
 .container .rodape{
     height: 70px;
 
-    background-color: red;
+
+}
+
+.rodape .redes-sociais {
+    display: flex;
+    gap: 20px;
+
+    justify-content: flex-end;
+
+    margin-right: 50px;
 }
 
 .redes-sociais span {
