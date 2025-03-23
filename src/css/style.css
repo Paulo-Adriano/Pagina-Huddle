@@ -73,6 +73,19 @@ body {
     background-color: red;
 }
 
-.fa-facebook, .fa-instagram, .fa-twitter-square {
-    font-size: 30px;
+.redes-sociais span {
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50%;
+    border: 2px solid white;
+
+    text-align: center;
+    line-height: 55px;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-twitter {
+    font-size: 25px;
 }
