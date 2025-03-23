@@ -95,6 +95,34 @@ body {
     line-height: 55px;
 }
 
+
+
 .fa-facebook-f, .fa-instagram, .fa-twitter {
     font-size: 25px;
+}
+
+.fa-facebook-f:active {
+    color: hsl(300, 63%, 58%);
+    
+}
+
+span:has(.fa-facebook-f:active) {
+    border: 2px solid hsl(300, 63%, 58%);
+}
+
+.fa-instagram:active {
+    color: hsl(300, 63%, 58%);
+}
+
+span:has(.fa-instagram:active) {
+
+    border: 2px solid hsl(300, 63%, 58%);
+}
+
+.fa-twitter:active {
+    color: hsl(300, 63%, 58%);
+}
+
+span:has(.fa-twitter:active) {
+    border: 2px solid hsl(300, 63%, 58%);
 }
