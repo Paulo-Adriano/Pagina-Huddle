@@ -73,6 +73,6 @@ body {
     background-color: red;
 }
 
-i {
-    width: 50px;
+.fa-facebook, .fa-instagram, .fa-twitter-square {
+    font-size: 30px;
 }
