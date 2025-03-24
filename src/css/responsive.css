@@ -55,3 +55,17 @@
     }
 
 }
+
+@media (max-width: 500px) {
+    .container .conteudo {
+        width: 500px;
+    }
+
+    .container .conteudo .img {
+        width: 350px;
+    }
+
+    .container .conteudo .informacoes {
+        width: 350px;
+    }
+}
