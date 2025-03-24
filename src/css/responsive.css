@@ -26,6 +26,24 @@
     }
     .container .conteudo .informacoes .btn {
         width: 250px;
-        height: 45px;
     }
+    
+
+    .container .rodape .redes-sociais {
+        
+        height: 250px;
+
+        
+    }
+
+    .container .rodape .redes-sociais {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    
 }
