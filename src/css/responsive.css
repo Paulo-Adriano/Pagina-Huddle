@@ -1,4 +1,13 @@
 @media (max-width: 765px) {
 
-    
+    .container .conteudo {
+        flex-direction: column;
+        
+
+        width: 600px;
+    }
+
+    .container .conteudo .img {
+        width: 400px;
+    }
 }
