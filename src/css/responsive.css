@@ -87,6 +87,10 @@
         padding-top: 20px;
     }
 
+    .container .rodape .redes-sociais {
+        height: 150px;
+    }
+
     .container .rodape span {
         width: 35px;
         height: 35px;
