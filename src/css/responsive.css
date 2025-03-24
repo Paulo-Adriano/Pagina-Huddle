@@ -57,6 +57,14 @@
 }
 
 @media (max-width: 500px) {
+
+    .logo img {
+        width: 120px;
+
+        margin-bottom: 50px;
+    }
+
+
     .container .conteudo {
         width: 375px;
         gap: 50px;
