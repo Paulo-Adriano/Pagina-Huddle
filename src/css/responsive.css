@@ -21,19 +21,21 @@
         width: 400px;
         text-align: center;
     }
+
     .container .conteudo .informacoes h1 {
         width: 350px;
     }
+
     .container .conteudo .informacoes .btn {
         width: 250px;
     }
-    
+
 
     .container .rodape .redes-sociais {
-        
+
         height: 250px;
 
-        
+
     }
 
     .container .rodape .redes-sociais {
@@ -45,5 +47,4 @@
         margin-top: 50px;
     }
 
-    
 }
