@@ -1,5 +1,12 @@
 @media (max-width: 1080px) {
 
+    .container {
+        background: #674BB0 url('../images/bg-mobile.svg') no-repeat top center fixed;
+
+        background-size: contain;
+
+        
+    }
 
     .container .conteudo {
         flex-direction: column;
