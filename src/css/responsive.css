@@ -1,13 +1,28 @@
-@media (max-width: 765px) {
+@media (max-width: 1080px) {
+
 
     .container .conteudo {
         flex-direction: column;
-        
+        align-items: center;
+        justify-content: center;
 
         width: 600px;
+
+        margin: auto;
+
+        gap: 150px;
     }
 
     .container .conteudo .img {
         width: 400px;
     }
+
+    .container .conteudo .informacoes {
+        width: 400px;
+        text-align: center;
+    }
+    .container .conteudo .informacoes h1 {
+        width: 350px;
+    }
+    
 }
