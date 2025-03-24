@@ -86,4 +86,16 @@
     .container .conteudo .informacoes p {
         padding-top: 20px;
     }
+
+    .container .rodape span {
+        width: 35px;
+        height: 35px;
+
+        line-height: 35px;
+    }
+
+    .fa-facebook-f, .fa-instagram, .fa-twitter {
+        font-size: 20px;
+        transition: 0.2s;
+    }
 }
